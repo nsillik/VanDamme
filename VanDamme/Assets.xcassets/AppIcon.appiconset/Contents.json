@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -12,6 +13,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 1.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -23,56 +25,67 @@
           "value" : "tinted"
         }
       ],
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 2.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 12.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 11.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 10.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 9.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 8.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 7.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 6.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 5.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 4.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "jean-claude-van-damme-1200-x-1200-uh4kc8ycqfli4gea 3.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

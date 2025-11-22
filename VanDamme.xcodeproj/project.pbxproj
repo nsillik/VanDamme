@@ -53,11 +53,6 @@
 			path = VanDammeTests;
 			sourceTree = "<group>";
 		};
-		C85110812ED1F39A00B37613 /* VanDammeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VanDammeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +85,6 @@
 			children = (
 				C85110652ED1F39800B37613 /* VanDamme */,
 				C85110772ED1F39A00B37613 /* VanDammeTests */,
-				C85110812ED1F39A00B37613 /* VanDammeUITests */,
 				C85110642ED1F39800B37613 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,9 +159,6 @@
 			);
 			dependencies = (
 				C85110802ED1F39A00B37613 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C85110812ED1F39A00B37613 /* VanDammeUITests */,
 			);
 			name = VanDammeUITests;
 			packageProductDependencies = (
