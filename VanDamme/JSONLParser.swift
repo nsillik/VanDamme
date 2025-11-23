@@ -231,6 +231,20 @@ class JSONLParser {
         // Save context
         try modelContext.save()
 
+        // Generate title from first 4 messages
+        let firstMessages = conversation.messages
+            .sorted { $0.timestamp < $1.timestamp }
+            .prefix(4)
+
+        if !firstMessages.isEmpty {
+            Task {
+                if let generatedTitle = await TitleGenerator.generateTitle(from: Array(firstMessages)) {
+                    conversation.title = generatedTitle
+                    try? modelContext.save()
+                }
+            }
+        }
+
         return conversation
     }
 }

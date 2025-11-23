@@ -164,14 +164,25 @@ A macOS app to view Claude's `.jsonl` conversation files with drag-and-drop supp
 - Text selection enabled for all content
 - Lazy loading for performance with large conversations
 
-### Phase 5: Polish
+### ✅ Phase 5: AI Title Generation (COMPLETE)
+1. ✅ Create TitleGenerator utility using FoundationModels
+2. ✅ Integrate auto-title generation into JSONLParser
+3. ✅ Generate titles from first 4 messages of conversation
+
+**Implemented:**
+- `TitleGenerator.swift`: Uses Apple's on-device Foundation Models to generate concise conversation titles
+- Automatic title generation during JSONL import
+- Falls back to sessionId if generation fails or model unavailable
+- Titles are 3-6 words, descriptive, based on conversation context
+
+### Phase 6: Polish
 1. Add empty states (no conversations, no selection)
 2. Add loading indicators during parsing
 3. Error handling and user feedback
 4. Test with large JSONL files
+5. Collapsible XML tags in messages
 
 ## Future Enhancements (Not in MVP)
-- Use local LLM to generate conversation titles from first exchange
 - Search within conversations
 - Export conversations
 - Multi-file drop support
